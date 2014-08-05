@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DataSourceManagerImpl" format="xml" hash="3526125324">
+    <data-source source="LOCAL" name="Rails doorkeeper-devise-client: development" uuid="196d76b1-50ba-4e45-b3a2-9b407042d12a">
+      <driver-ref>postgresql</driver-ref>
+      <jdbc-driver>org.postgresql.Driver</jdbc-driver>
+      <jdbc-url>jdbc:postgresql:doorkeeper_example_development</jdbc-url>
+      <user-name>coorasse</user-name>
+      <libraries />
+    </data-source>
+    <data-source source="LOCAL" name="Rails doorkeeper-devise-client: test" uuid="8c04cbef-b129-481f-a605-e854e2ee90bb">
+      <driver-ref>postgresql</driver-ref>
+      <jdbc-driver>org.postgresql.Driver</jdbc-driver>
+      <jdbc-url>jdbc:postgresql:doorkeeper_example_test</jdbc-url>
+      <user-name>coorasse</user-name>
+      <libraries />
+    </data-source>
+    <data-source source="LOCAL" name="Rails doorkeeper-devise-client: production" uuid="60bf3571-9ed6-4181-b2e6-2ada2c567d0d">
+      <driver-ref>postgresql</driver-ref>
+      <jdbc-driver>org.postgresql.Driver</jdbc-driver>
+      <jdbc-url>jdbc:postgresql:doorkeeper_example_production</jdbc-url>
+      <user-name>coorasse</user-name>
+      <libraries />
+    </data-source>
+  </component>
+</project>
+

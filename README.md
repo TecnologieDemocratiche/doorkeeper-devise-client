@@ -32,12 +32,12 @@ And migrate the databse
 
 At this point the application should be ready to run, but it won't
 communicate correctly with the provider. You need to set up environment
-variables to indicate the oauth2 provider values. In your environemnt
+variables to indicate the oauth2 provider values. In your application.yml
 file set up these variables
 
-    DOORKEEPER_APP_ID = "375c2e3fd..." # ID for your app registered at the provider
-    DOORKEEPER_APP_SECRET = "6a2fa82ab..." # Secret
-    DOORKEEPER_APP_URL = "http://the-provider.com" # URL to the provider
+    DOORKEEPER_APP_ID: "375c2e3fd..." # ID for your app registered at the provider
+    DOORKEEPER_APP_SECRET: "6a2fa82ab..." # Secret
+    DOORKEEPER_APP_URL: "http://the-provider.com" # URL to the provider
 
 If you want to test it out you can use our sample provider using
 [doorkeeper](http://github.com/applicake/doorkeeper) gem. It's available
