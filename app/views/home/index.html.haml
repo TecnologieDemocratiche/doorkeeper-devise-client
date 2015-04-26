@@ -2,14 +2,14 @@
   .row
     .span16
       - unless signed_in?
-        %h3 Sign in first to explore the provider's API
-        %p= link_to "Sign in with OAuth 2 provider", user_omniauth_authorize_path(:doorkeeper), :class => "btn primary"
+        %h3 Sign in first to explore Tecnologie Democratiche API
+        %p= link_to 'Sign in with Tecnologie Democratiche provider', user_omniauth_authorize_path(:tecnologiedemocratiche), class: 'btn primary'
       - else
         %h2 Explore the api
         .well
-          = link_to "My Credentials", explore_api_path(:me, :format => :json), :class => "btn", "data-explore" => []
-          = link_to "Profiles", explore_api_path(:profiles, :format => :json), :class => "btn", "data-explore" => []
-          = link_to "Sign out", destroy_user_session_path, :class => "btn primary"
+          = link_to 'My Credentials', explore_api_path(:me, :format => :json), :class => 'btn', 'data-explore' => []
+          = link_to 'Profiles', explore_api_path(:profiles, :format => :json), :class => 'btn', 'data-explore' => []
+          = link_to 'Sign out', destroy_user_session_path, :class => 'btn primary'
           You are logged in as
           = current_user.email
 
